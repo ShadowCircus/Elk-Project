@@ -111,7 +111,7 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_ I made multiple playbooks throughout this project. the one I used most was the one labled Pentest. and it was written in YAML after I nano'd into it.
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ You update the hosts file and enter whatever IP address you want into it, making sure it's in the right group.
 - _Which URL do you navigate to in order to check that the ELK server is running? http://www.dvwa.co.uk/
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
